@@ -25,7 +25,7 @@ SECRET_KEY = 'vd8%uqy8*1h+#@h)ch05y(t9c@ig)0=h!rcx5(l6(w^%%hk#9*'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['127.0.0.1', '172.96.201.219']
+ALLOWED_HOSTS = ['127.0.0.1', '172.96.201.219', 'daytonight.top']
 
 
 # Application definition
