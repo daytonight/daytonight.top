@@ -1,0 +1,2 @@
+# daytonight.top
+Brick daily
