@@ -1,0 +1,8 @@
+# ignore .idea folder
+.idea/
+*.pyc
+*.less
+migrations/
+venv/
+*.log
+
