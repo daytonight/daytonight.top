@@ -8,7 +8,7 @@ https://docs.djangoproject.com/en/1.11/howto/deployment/wsgi/
 """
 import sys
 
-sys.path.append('/home/site/lib/python3.6/site-packages/')
+sys.path.append('/home/daytonight.top/site/lib/python3.6/site-packages/')
 
 import os
 
