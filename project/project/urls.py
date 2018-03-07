@@ -16,10 +16,10 @@ Including another URLconf
 from django.conf.urls import url, include
 from django.contrib import admin
 
-from project.api.urls import router
+# from api.urls import router
 
 urlpatterns = [
     url(r'^admin/', admin.site.urls),
     url(r'', include('main.urls')),
-    url(r'^api/', include(router.urls))
+    # url(r'^api/', include(router.urls))
 ]
