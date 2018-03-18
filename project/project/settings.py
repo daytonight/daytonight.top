@@ -9,6 +9,8 @@ https://docs.djangoproject.com/en/1.11/topics/settings/
 For the full list of settings and their values, see
 https://docs.djangoproject.com/en/1.11/ref/settings/
 """
+# import mimetypes
+# mimetypes.add_type("text/css", ".css", True)
 
 import os
 
@@ -23,7 +25,7 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 SECRET_KEY = 'vd8%uqy8*1h+#@h)ch05y(t9c@ig)0=h!rcx5(l6(w^%%hk#9*'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = False
+DEBUG = True
 
 ALLOWED_HOSTS = ['127.0.0.1', '172.96.201.219', 'daytonight.top']
 
@@ -78,10 +80,10 @@ DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
         'NAME': 'site',
-        # 'USER': 'root',
-        # 'PASSWORD': '199300',
-        'USER': 'uniyes',
-        'PASSWORD': 'uniyes123',
+        'USER': 'root',
+        'PASSWORD': '199300',
+        # 'USER': 'uniyes',
+        # 'PASSWORD': 'uniyes123',
         'HOST': '127.0.0.1',
         'PORT': '3306'
     }

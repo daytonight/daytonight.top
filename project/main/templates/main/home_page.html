@@ -15,7 +15,7 @@
     <link rel="stylesheet" href="https://cdn.bootcss.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 
     <!-- Custom styles for this template -->
-    <link href="{% static 'main/blog-home.css' %}" rel="stylesheet">
+    <link type="text/css" href="{% static 'main/css/blog-home.css' %}" rel="stylesheet">
 
 </head>
 
@@ -24,7 +24,8 @@
 <!-- Navigation -->
 <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
     <div class="container">
-        <a class="navbar-brand" href="#">Python码农的搬砖日常</a>
+        <img src="{% static 'main/images/hsq.jpg' %}" alt="avatar" class="home-avatar">
+        <a class="navbar-brand home-slogan" href="#">DAYTONIGHT</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive"
                 aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -52,7 +53,6 @@
 
 <!-- Page Content -->
 <div class="container">
-    <img src="{% static 'main/images/hsq.jpg' %}" style="position: absolute;left: 0;top:200px;" alt="test*-9">
     <div class="row">
 
         <!-- Blog Entries Column -->
