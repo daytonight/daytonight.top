@@ -22,3 +22,11 @@ urlpatterns = [
     url(r'^admin/', admin.site.urls),
     url(r'', include('main.urls')),
 ]
+
+from django.conf import settings
+
+from django.contrib.staticfiles.urls import staticfiles_urlpatterns
+
+# ... the rest of your URLconf here ...
+
+urlpatterns += staticfiles_urlpatterns()

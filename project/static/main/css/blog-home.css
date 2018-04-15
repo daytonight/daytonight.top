@@ -1,0 +1,17 @@
+body {
+  padding-top: 54px;
+}
+
+@media (min-width: 992px) {
+  body {
+    padding-top: 56px;
+  }
+}
+@font-face {
+  font-family: coveredbyyourgrace;
+  src: url('./coveredbyyourgrace-webfont.woff') format("woff");
+}
+
+.home-slogan {font-family: 'coveredbyyourgrace';font-size: 20px;margin-left: 10px;}
+.red {color: red}
+.home-avatar {width: 42px;height: 42px;border-radius: 21px;}
