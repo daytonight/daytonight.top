@@ -132,9 +132,9 @@ STATICFILES_FINDERS = (
   'django.contrib.staticfiles.finders.AppDirectoriesFinder',)
 
 STATIC_URL = '/static/'
-# STATICFILES_DIRS = [
-#     os.path.join(BASE_DIR, "main"),
-# ]
+STATICFILES_DIRS = [
+    os.path.join(BASE_DIR, "main/static"),
+]
 
 REST_FRAMEWORK= {
     # Use Django's standard `django.contrib.auth` permissions,
